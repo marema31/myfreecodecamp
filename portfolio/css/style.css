@@ -1,0 +1,87 @@
+body {
+  background-color: #00205d;
+}
+.navbar-fixed-top, .signature {
+  background-color: #0085ad;
+}
+
+.signature {
+  color: white;
+    font-weight: bold;
+}
+
+#contact, #portofolio {
+  background-color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 20px;
+}
+
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+.nalink {
+  color: #00205b !important;
+}
+
+#about, #footer-above {
+  background-color: #cccccc;
+  color: #005670;
+  font-size: 20px;
+  margin: 0;
+}
+
+#about {
+  padding:  3em 4em 1em 4em;
+  font-size: 26px;
+}
+main header img {
+  border-radius:50%;
+  margin:10px 0px 10px 20px;
+  max-width:80%;
+  height:auto;
+  width:200px;
+  vertical-align: top;
+}
+
+main section img {
+  border-radius:20%;
+  margin:10px 0px 10px 0px;
+  height:200px;
+  width:300px;
+  vertical-align: top;
+}
+
+#footer-above{
+  padding-top:10px;
+}
+#footer-above div{
+  margin-bottom:10px;
+}
+#footer-above ul{
+  padding:0;
+}
+#footer-above li{
+  display:inline;
+}
+
+.me-myself{
+  max-width:675px;
+  text-align:center;
+}
+
+.form-item{
+  position:relative;
+  margin-bottom:10px;
+  padding-bottom:10px;
+  border-bottom:1px solid #bbb;
+}
+.form-item input, .form-item textarea{z-index:1;position:relative;padding-right:0;padding-left:0;border:0;border-radius:0;font-size:1.5em;background:0 0;box-shadow:none!important;resize:none;width:100%;
+}
+.form-item input:focus, .form-item textarea:focus{
+  outline:0
+}
+
