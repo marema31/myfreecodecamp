@@ -1,0 +1,25 @@
+h1 {
+  font-family: Lobster, Monospace;
+  font-size: 600%;
+}
+
+#quote-box {
+  margin: 100px 0px 50px 0px;
+  padding: 10px 30px 10px 30px;
+  min-height:  200px;
+  background-color: #DDD;
+  border-radius: 50px;
+  box-shadow: 8px 8px 0px #aaa; 
+}
+
+#quote {
+  font-family: "Gloria Hallelujah", Monospace;
+  font-size: 200%;
+}
+
+#author {
+  font-family: "Cormorant Garamond", Monospace;
+  font-size: 250%;
+  text-align: right;
+  padding-right:200px
+}
