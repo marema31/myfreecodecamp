@@ -1,0 +1,41 @@
+body {
+  background-color: #072659;
+}
+
+getRandom {
+  color: white;
+  font-size: 150%;
+}
+
+input {
+  margin-top: 20px;
+}
+
+.container {
+  margin: 100px auto 50px auto; /*  auto for center */
+  padding: 10px 10px 10px 10px;
+}
+
+#results {
+  display: none;
+}
+
+.result {
+  background-color: #EEE;
+  padding: 3px 20px 10px 20px;
+  margin: 20px;
+}
+
+.result p {
+  font-size: 150%;
+  color: #222;
+  text-align:left;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#getRandom {
+  color: #AAF;
+}
