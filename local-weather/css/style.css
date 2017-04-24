@@ -1,0 +1,48 @@
+#city {
+  font-family: "Paytone One", Monospace;
+  font-size: 500%;
+}
+
+#weather-box {
+  margin: 100px auto 50px auto; /*  auto for center */
+  padding: 10px 10px 10px 10px;
+  min-height:  400px;
+  max-width:  600px;
+  min-width: 400px;
+  border-width: 1px;
+  border-color: #aaa;
+  border-style: solid;
+  border-radius: 50px;
+  box-shadow: 8px 8px 0px #aaa;
+  background-color: white;
+}
+
+p {
+   margin: 0px;
+   padding-bottom: 20px; 
+}
+
+.tempLine {  
+  font-size: 400%;
+}
+
+#description {  
+  font-size: 200%;
+}
+
+#unit { 
+    color: #88F;
+    text-decoration: none;
+    background-color: transparent;
+    border-style: none;
+}
+
+#icon {
+  width: 150px;
+}
+
+body {
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: cover;
+}
