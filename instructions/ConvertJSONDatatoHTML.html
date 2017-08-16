@@ -1,0 +1,44 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  Now that we&#39;re getting data from a JSON API, let&#39;s display it in our HTML.
+ </p>
+ <p class="wrappable">
+  We can use the
+  <code>
+   .forEach()
+  </code>
+  method to loop through our data and modify our HTML elements.
+ </p>
+ <p class="wrappable">
+  First, let&#39;s declare an html variable with
+  <code>
+   var html = &#34;&#34;;
+  </code>
+  .
+ </p>
+ <p class="wrappable">
+  Then, let&#39;s loop through our JSON, adding more HTML to that variable. When the loop is finished, we&#39;ll render it.
+ </p>
+ <p class="wrappable">
+  Here&#39;s the code that does this:
+ </p>
+ <blockquote>
+  json.forEach(function(val) {
+  <br>
+  var keys = Object.keys(val);
+  <br>
+  html += &#34;&lt;div class = &#39;cat&#39;&gt;&#34;;
+  <br>
+  keys.forEach(function(key) {
+  <br>
+  html += &#34;&lt;strong&gt;&#34; + key + &#34;&lt;/strong&gt;: &#34; + val[key] + &#34;&lt;br&gt;&#34;;
+  <br>
+  });
+  <br>
+  html += &#34;&lt;/div&gt;&lt;br&gt;&#34;;
+  <br>
+  });
+ </blockquote>
+ <div class="negative-bottom-margin-30">
+ </div>
+</div>

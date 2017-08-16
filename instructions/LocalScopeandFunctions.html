@@ -1,0 +1,60 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  Variables which are declared within a function, as well as the function parameters have
+  <dfn>
+   local
+  </dfn>
+  scope. That means, they are only visible within that function.
+ </p>
+ <p class="wrappable">
+  Here is a function
+  <code>
+   myTest
+  </code>
+  with a local variable called
+  <code>
+   loc
+  </code>
+  .
+ </p>
+ <blockquote>
+  function myTest() {
+  <br>
+  var loc = &#34;foo&#34;;
+  <br>
+  console.log(loc);
+  <br>
+  }
+  <br>
+  myTest(); // &#34;foo&#34;
+  <br>
+  console.log(loc); // &#34;undefined&#34;
+ </blockquote>
+ <p class="wrappable">
+  <code>
+   loc
+  </code>
+  is not defined outside of the function.
+ </p>
+ <h4>
+  Instructions
+ </h4>
+ <p class="wrappable">
+  Declare a local variable
+  <code>
+   myVar
+  </code>
+  inside
+  <code>
+   myLocalScope
+  </code>
+  . Run the tests and then follow the instructions commented out in the editor.
+ </p>
+ <p class="wrappable">
+  <strong>
+   Hint
+  </strong>
+  <br>
+  Refreshing the page may help if you get stuck.
+ </p>
+</div>

@@ -1,0 +1,84 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  It&#39;s great that we can generate random decimal numbers, but it&#39;s even more useful if we use it to generate random whole numbers.
+ </p>
+ <ol>
+  <li>
+   Use
+   <code>
+    Math.random()
+   </code>
+   to generate a random decimal.
+  </li>
+  <li>
+   Multiply that random decimal by
+   <code>
+    20
+   </code>
+   .
+  </li>
+  <li>
+   Use another function,
+   <code>
+    Math.floor()
+   </code>
+   to round the number down to its nearest whole number.
+  </li>
+ </ol>
+ <p class="wrappable">
+  Remember that
+  <code>
+   Math.random()
+  </code>
+  can never quite return a
+  <code>
+   1
+  </code>
+  and, because we&#39;re rounding down, it&#39;s impossible to actually get
+  <code>
+   20
+  </code>
+  . This technique will give us a whole number between
+  <code>
+   0
+  </code>
+  and
+  <code>
+   19
+  </code>
+  .
+ </p>
+ <p class="wrappable">
+  Putting everything together, this is what our code looks like:
+ </p>
+ <p class="wrappable">
+  <code>
+   Math.floor(Math.random() * 20);
+  </code>
+ </p>
+ <p class="wrappable">
+  We are calling
+  <code>
+   Math.random()
+  </code>
+  , multiplying the result by 20, then passing the value to
+  <code>
+   Math.floor()
+  </code>
+  function to round the value down to the nearest whole number.
+ </p>
+ <h4>
+  Instructions
+ </h4>
+ <p class="wrappable">
+  Use this technique to generate and return a random whole number between
+  <code>
+   0
+  </code>
+  and
+  <code>
+   9
+  </code>
+  .
+ </p>
+</div>

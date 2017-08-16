@@ -1,0 +1,85 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  We just proved that browsers read CSS from top to bottom. That means that, in the event of a conflict, the browser will use whichever CSS declaration came last.
+ </p>
+ <p class="wrappable">
+  But we&#39;re not done yet. There are other ways that you can override CSS. Do you remember id attributes?
+ </p>
+ <p class="wrappable">
+  Let&#39;s override your
+  <code>
+   pink-text
+  </code>
+  and
+  <code>
+   blue-text
+  </code>
+  classes, and make your
+  <code>
+   h1
+  </code>
+  element orange, by giving the
+  <code>
+   h1
+  </code>
+  element an id and then styling that id.
+ </p>
+ <p class="wrappable">
+  Give your
+  <code>
+   h1
+  </code>
+  element the
+  <code>
+   id
+  </code>
+  attribute of
+  <code>
+   orange-text
+  </code>
+  . Remember, id styles look like this:
+ </p>
+ <p class="wrappable">
+  <code>
+   &lt;h1 id=&#34;orange-text&#34;&gt;
+  </code>
+ </p>
+ <p class="wrappable">
+  Leave the
+  <code>
+   blue-text
+  </code>
+  and
+  <code>
+   pink-text
+  </code>
+  classes on your
+  <code>
+   h1
+  </code>
+  element.
+ </p>
+ <p class="wrappable">
+  Create a CSS declaration for your
+  <code>
+   orange-text
+  </code>
+  id in your
+  <code>
+   style
+  </code>
+  element. Here&#39;s an example of what this looks like:
+ </p>
+ <blockquote>
+  #brown-text {
+  <br>
+  color: brown;
+  <br>
+  }
+ </blockquote>
+ <p class="wrappable">
+  Note: It doesn&#39;t matter whether you declare this css above or below pink-text class, since id attribute will always take precedence.
+ </p>
+ <div class="negative-bottom-margin-30">
+ </div>
+</div>

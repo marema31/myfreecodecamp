@@ -1,0 +1,64 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  When you are defining a string you must start and end with a single or double quote. What happens when you need a literal quote:
+  <code>
+   &#34;
+  </code>
+  or
+  <code>
+   &#39;
+  </code>
+  inside of your string?
+ </p>
+ <p class="wrappable">
+  In JavaScript, you can
+  <dfn>
+   escape
+  </dfn>
+  a quote from considering it as an end of string quote by placing a
+  <dfn>
+   backslash
+  </dfn>
+  (
+  <code>
+   \
+  </code>
+  ) in front of the quote.
+ </p>
+ <p class="wrappable">
+  <code>
+   var sampleStr = &#34;Alan said, \&#34;Peter is learning JavaScript\&#34;.&#34;;
+  </code>
+ </p>
+ <p class="wrappable">
+  This signals to JavaScript that the following quote is not the end of the string, but should instead appear inside the string. So if you were to print this to the console, you would get:
+ </p>
+ <p class="wrappable">
+  <code>
+   Alan said, &#34;Peter is learning JavaScript&#34;.
+  </code>
+ </p>
+ <h4>
+  Instructions
+ </h4>
+ <p class="wrappable">
+  Use
+  <dfn>
+   backslashes
+  </dfn>
+  to assign a string to the
+  <code>
+   myStr
+  </code>
+  variable so that
+  <em>
+   if
+  </em>
+  you were to print it to the console, you would see:
+ </p>
+ <p class="wrappable">
+  <code>
+   I am a &#34;double quoted&#34; string inside &#34;double quotes&#34;.
+  </code>
+ </p>
+</div>

@@ -1,0 +1,58 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. Here is an example:
+ </p>
+ <blockquote>
+  var arr = [
+  <br>
+  [1,2], [3,4], [5,6]
+  <br>
+  ];
+  <br>
+  for (var i=0; i &lt; arr.length; i++) {
+  <br>
+  for (var j=0; j &lt; arr[i].length; j++) {
+  <br>
+  console.log(arr[i][j]);
+  <br>
+  }
+  <br>
+  }
+ </blockquote>
+ <p class="wrappable">
+  This outputs each sub-element in
+  <code>
+   arr
+  </code>
+  one at a time. Note that for the inner loop, we are checking the
+  <code>
+   .length
+  </code>
+  of
+  <code>
+   arr[i]
+  </code>
+  , since
+  <code>
+   arr[i]
+  </code>
+  is itself an array.
+ </p>
+ <h4>
+  Instructions
+ </h4>
+ <p class="wrappable">
+  Modify function
+  <code>
+   multiplyAll
+  </code>
+  so that it multiplies the
+  <code>
+   product
+  </code>
+  variable by each number in the sub-arrays of
+  <code>
+   arr
+  </code>
+ </p>
+</div>

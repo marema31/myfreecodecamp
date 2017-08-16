@@ -1,0 +1,116 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  In the game of
+  <a href="https://en.wikipedia.org/wiki/Golf" target="_blank">
+   golf
+  </a>
+  each hole has a
+  <code>
+   par
+  </code>
+  meaning the average number of
+  <code>
+   strokes
+  </code>
+  a golfer is expected to make in order to sink the ball in a hole to complete the play. Depending on how far above or below
+  <code>
+   par
+  </code>
+  your
+  <code>
+   strokes
+  </code>
+  are, there is a different nickname.
+ </p>
+ <p class="wrappable">
+  Your function will be passed
+  <code>
+   par
+  </code>
+  and
+  <code>
+   strokes
+  </code>
+  arguments. Return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
+ </p>
+ <table class="table table-striped">
+  <thead>
+   <tr>
+    <th>
+     Strokes
+    </th>
+    <th>
+     Return
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>
+     1
+    </td>
+    <td>
+     &#34;Hole-in-one!&#34;
+    </td>
+   </tr>
+   <tr>
+    <td>
+     &lt;= par - 2
+    </td>
+    <td>
+     &#34;Eagle&#34;
+    </td>
+   </tr>
+   <tr>
+    <td>
+     par - 1
+    </td>
+    <td>
+     &#34;Birdie&#34;
+    </td>
+   </tr>
+   <tr>
+    <td>
+     par
+    </td>
+    <td>
+     &#34;Par&#34;
+    </td>
+   </tr>
+   <tr>
+    <td>
+     par + 1
+    </td>
+    <td>
+     &#34;Bogey&#34;
+    </td>
+   </tr>
+   <tr>
+    <td>
+     par + 2
+    </td>
+    <td>
+     &#34;Double Bogey&#34;
+    </td>
+   </tr>
+   <tr>
+    <td>
+     &gt;= par + 3
+    </td>
+    <td>
+     &#34;Go Home!&#34;
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <p class="wrappable">
+  <code>
+   par
+  </code>
+  and
+  <code>
+   strokes
+  </code>
+  will always be numeric and positive.
+ </p>
+</div>

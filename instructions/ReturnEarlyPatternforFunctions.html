@@ -1,0 +1,78 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  When a
+  <code>
+   return
+  </code>
+  statement is reached, the execution of the current function stops and control returns to the calling location.
+ </p>
+ <p class="wrappable">
+  <strong>
+   Example
+  </strong>
+ </p>
+ <blockquote>
+  function myFun() {
+  <br>
+  console.log(&#34;Hello&#34;);
+  <br>
+  return &#34;World&#34;;
+  <br>
+  console.log(&#34;byebye&#34;)
+  <br>
+  }
+  <br>
+  myFun();
+ </blockquote>
+ <p class="wrappable">
+  The above outputs &#34;Hello&#34; to the console, returns &#34;World&#34;, but
+  <code>
+   &#34;byebye&#34;
+  </code>
+  is never output, because the function exits at the
+  <code>
+   return
+  </code>
+  statement.
+ </p>
+ <h4>
+  Instructions
+ </h4>
+ <p class="wrappable">
+  Modify the function
+  <code>
+   abTest
+  </code>
+  so that if
+  <code>
+   a
+  </code>
+  or
+  <code>
+   b
+  </code>
+  are less than
+  <code>
+   0
+  </code>
+  the function will immediately exit with a value of
+  <code>
+   undefined
+  </code>
+  .
+ </p>
+ <p class="wrappable">
+  <strong>
+   Hint
+  </strong>
+  <br>
+  Remember that
+  <a href="http://www.freecodecamp.org/challenges/understanding-uninitialized-variables" target="_blank">
+   <code>
+    undefined
+   </code>
+   is a keyword
+  </a>
+  , not a string.
+ </p>
+</div>

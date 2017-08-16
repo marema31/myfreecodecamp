@@ -1,0 +1,32 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  You&#39;ve seen why id attributes are so convenient for targeting with jQuery selectors. But you won&#39;t always have such neat ids to work with.
+ </p>
+ <p class="wrappable">
+  Fortunately, jQuery has some other tricks for targeting the right elements.
+ </p>
+ <p class="wrappable">
+  jQuery uses CSS Selectors to target elements.
+  <code>
+   target:nth-child(n)
+  </code>
+  css selector allows you to select all the nth elements with the target class or element type.
+ </p>
+ <p class="wrappable">
+  Here&#39;s how you would give the third element in each well the bounce class:
+ </p>
+ <p class="wrappable">
+  <code>
+   $(&#34;.target:nth-child(3)&#34;).addClass(&#34;animated bounce&#34;);
+  </code>
+ </p>
+ <p class="wrappable">
+  Make the second child in each of your well elements bounce. You must target the children of element with the
+  <code>
+   target
+  </code>
+  class.
+ </p>
+ <div class="negative-bottom-margin-30">
+ </div>
+</div>

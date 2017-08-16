@@ -1,0 +1,70 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  The array method
+  <code>
+   reduce
+  </code>
+  is used to iterate through an array and condense it into one value.
+ </p>
+ <p class="wrappable">
+  To use
+  <code>
+   reduce
+  </code>
+  you pass in a callback whose arguments are an accumulator (in this case,
+  <code>
+   previousVal
+  </code>
+  ) and the current value (
+  <code>
+   currentVal
+  </code>
+  ).
+ </p>
+ <p class="wrappable">
+  The accumulator is like a total that
+  <code>
+   reduce
+  </code>
+  keeps track of after each operation. The current value is just the next element in the array you&#39;re iterating through.
+ </p>
+ <p class="wrappable">
+  <code>
+   reduce
+  </code>
+  has an optional second argument which can be used to set the initial value of the accumulator. If no initial value is specified it will be the first array element and
+  <code>
+   currentVal
+  </code>
+  will start with the second array element.
+ </p>
+ <p class="wrappable">
+  Here is an example of
+  <code>
+   reduce
+  </code>
+  being used to subtract all the values of an array:
+ </p>
+ <blockquote>
+  var singleVal = array.reduce(function(previousVal, currentVal) {
+  <br>
+  return previousVal - currentVal;
+  <br>
+  }, 0);
+ </blockquote>
+ <p class="wrappable">
+  Use the
+  <code>
+   reduce
+  </code>
+  method to sum all the values in
+  <code>
+   array
+  </code>
+  and assign it to
+  <code>
+   singleVal
+  </code>
+  .
+ </p>
+</div>

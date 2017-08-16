@@ -1,0 +1,43 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  You can also request data from an external source. This is where APIs come into play.
+ </p>
+ <p class="wrappable">
+  Remember that APIs - or Application Programming Interfaces - are tools that computers use to communicate with one another.
+ </p>
+ <p class="wrappable">
+  Most web APIs transfer data in a format called JSON. JSON stands for JavaScript Object Notation.
+ </p>
+ <p class="wrappable">
+  You&#39;ve already been using JSON whenever you create a JavaScript object. JSON is nothing more than object properties and their current values, sandwiched between a
+  <code>
+   {
+  </code>
+  and a
+  <code>
+   }
+  </code>
+  .
+ </p>
+ <p class="wrappable">
+  These properties and their values are often referred to as &#34;key-value pairs&#34;.
+ </p>
+ <p class="wrappable">
+  Let&#39;s get the JSON from freeCodeCamp&#39;s Cat Photo API.
+ </p>
+ <p class="wrappable">
+  Here&#39;s the code you can put in your click event to do this:
+ </p>
+ <blockquote>
+  $.getJSON(&#34;/json/cats.json&#34;, function(json) {
+  <br>
+  $(&#34;.message&#34;).html(JSON.stringify(json));
+  <br>
+  });
+ </blockquote>
+ <p class="wrappable">
+  Once you&#39;ve added this, click the &#34;Get Message&#34; button. Your Ajax function will replace the &#34;The message will go here&#34; text with the raw JSON output from the Free Code Camp Cat Photo API.
+ </p>
+ <div class="negative-bottom-margin-30">
+ </div>
+</div>

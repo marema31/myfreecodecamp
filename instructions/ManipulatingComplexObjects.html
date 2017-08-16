@@ -1,0 +1,153 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  Sometimes you may want to store data in a flexible
+  <dfn>
+   Data Structure
+  </dfn>
+  . A JavaScript object is one way to handle flexible data. They allow for arbitrary combinations of
+  <dfn>
+   strings
+  </dfn>
+  ,
+  <dfn>
+   numbers
+  </dfn>
+  ,
+  <dfn>
+   booleans
+  </dfn>
+  ,
+  <dfn>
+   arrays
+  </dfn>
+  ,
+  <dfn>
+   functions
+  </dfn>
+  , and
+  <dfn>
+   objects
+  </dfn>
+  .
+ </p>
+ <p class="wrappable">
+  Here&#39;s an example of a complex data structure:
+ </p>
+ <blockquote>
+  var ourMusic = [
+  <br>
+  {
+  <br>
+  &#34;artist&#34;: &#34;Daft Punk&#34;,
+  <br>
+  &#34;title&#34;: &#34;Homework&#34;,
+  <br>
+  &#34;release_year&#34;: 1997,
+  <br>
+  &#34;formats&#34;: [
+  <br>
+  &#34;CD&#34;,
+  <br>
+  &#34;Cassette&#34;,
+  <br>
+  &#34;LP&#34; ],
+  <br>
+  &#34;gold&#34;: true
+  <br>
+  }
+  <br>
+  ];
+ </blockquote>
+ <p class="wrappable">
+  This is an array which contains one object inside. The object has various pieces of
+  <dfn>
+   metadata
+  </dfn>
+  about an album. It also has a nested
+  <code>
+   &#34;formats&#34;
+  </code>
+  array. If you want to add more album records, you can do this by adding records to the top level array.
+ </p>
+ <p class="wrappable">
+  Objects hold data in a property, which has a key-value format. In the example above,
+  <code>
+   &#34;artist&#34;: &#34;Daft Punk&#34;
+  </code>
+  is a property that has a key of
+  <code>
+   &#34;artist&#34;
+  </code>
+  and a value of
+  <code>
+   &#34;Daft Punk&#34;
+  </code>
+  .
+ </p>
+ <p class="wrappable">
+  <a href="http://www.json.org/" target="_blank">
+   JavaScript Object Notation
+  </a>
+  or
+  <code>
+   JSON
+  </code>
+  is a related data interchange format used to store data.
+ </p>
+ <blockquote>
+  {
+  <br>
+  &#34;artist&#34;: &#34;Daft Punk&#34;,
+  <br>
+  &#34;title&#34;: &#34;Homework&#34;,
+  <br>
+  &#34;release_year&#34;: 1997,
+  <br>
+  &#34;formats&#34;: [
+  <br>
+  &#34;CD&#34;,
+  <br>
+  &#34;Cassette&#34;,
+  <br>
+  &#34;LP&#34;
+  <br>
+  ],
+  <br>
+  &#34;gold&#34;: true
+  <br>
+  }
+ </blockquote>
+ <p class="wrappable">
+  <strong>
+   Note
+  </strong>
+  <br>
+  You will need to place a comma after every object in the array, unless it is the last object in the array.
+ </p>
+ <h4>
+  Instructions
+ </h4>
+ <p class="wrappable">
+  Add a new album to the
+  <code>
+   myMusic
+  </code>
+  array. Add
+  <code>
+   artist
+  </code>
+  and
+  <code>
+   title
+  </code>
+  strings,
+  <code>
+   release_year
+  </code>
+  number, and a
+  <code>
+   formats
+  </code>
+  array of strings.
+ </p>
+</div>

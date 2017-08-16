@@ -1,0 +1,87 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  Sometimes you will need to test more than one thing at a time. The
+  <dfn>
+   logical and
+  </dfn>
+  operator (
+  <code>
+   &amp;&amp;
+  </code>
+  ) returns
+  <code>
+   true
+  </code>
+  if and only if the
+  <dfn>
+   operands
+  </dfn>
+  to the left and right of it are true.
+ </p>
+ <p class="wrappable">
+  The same effect could be achieved by nesting an if statement inside another if:
+ </p>
+ <blockquote>
+  if (num &gt; 5) {
+  <br>
+  if (num &lt; 10) {
+  <br>
+  return &#34;Yes&#34;;
+  <br>
+  }
+  <br>
+  }
+  <br>
+  return &#34;No&#34;;
+ </blockquote>
+ <p class="wrappable">
+  will only return &#34;Yes&#34; if
+  <code>
+   num
+  </code>
+  is between
+  <code>
+   6
+  </code>
+  and
+  <code>
+   9
+  </code>
+  (6 and 9 included). The same logic can be written as:
+ </p>
+ <blockquote>
+  if (num &gt; 5 &amp;&amp; num &lt; 10) {
+  <br>
+  return &#34;Yes&#34;;
+  <br>
+  }
+  <br>
+  return &#34;No&#34;;
+ </blockquote>
+ <h4>
+  Instructions
+ </h4>
+ <p class="wrappable">
+  Combine the two if statements into one statement which will return
+  <code>
+   &#34;Yes&#34;
+  </code>
+  if
+  <code>
+   val
+  </code>
+  is less than or equal to
+  <code>
+   50
+  </code>
+  and greater than or equal to
+  <code>
+   25
+  </code>
+  . Otherwise, will return
+  <code>
+   &#34;No&#34;
+  </code>
+  .
+ </p>
+</div>

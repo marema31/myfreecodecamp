@@ -1,0 +1,36 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  Another cool thing we can do is access our user&#39;s current location. Every browser has a built in navigator that can give us this information.
+ </p>
+ <p class="wrappable">
+  The navigator will get our user&#39;s current longitude and latitude.
+ </p>
+ <p class="wrappable">
+  You will see a prompt to allow or block this site from knowing your current location. The challenge can be completed either way, as long as the code is correct.
+ </p>
+ <p class="wrappable">
+  By selecting allow you will see the text on the output phone change to your latitude and longitude
+ </p>
+ <p class="wrappable">
+  Here&#39;s some code that does this:
+ </p>
+ <blockquote>
+  if (navigator.geolocation) {
+  <br>
+  navigator.geolocation.getCurrentPosition(function(position) {
+  <br>
+  $(&#34;#data&#34;).html(&#34;latitude: &#34; + position.coords.latitude + &#34;&lt;br&gt;longitude: &#34; + position.coords.longitude);
+  <br>
+  });
+  <br>
+  }
+ </blockquote>
+ <p class="wrappable">
+  Don&#39;t forget to use double quotes around selectors as mentioned
+  <a href="/challenges/target-html-elements-with-selectors-using-jquery">
+   here.
+  </a>
+ </p>
+ <div class="negative-bottom-margin-30">
+ </div>
+</div>

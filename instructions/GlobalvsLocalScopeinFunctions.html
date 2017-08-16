@@ -1,0 +1,68 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  It is possible to have both
+  <dfn>
+   local
+  </dfn>
+  and
+  <dfn>
+   global
+  </dfn>
+  variables with the same name. When you do this, the
+  <code>
+   local
+  </code>
+  variable takes precedence over the
+  <code>
+   global
+  </code>
+  variable.
+ </p>
+ <p class="wrappable">
+  In this example:
+ </p>
+ <blockquote>
+  var someVar = &#34;Hat&#34;;
+  <br>
+  function myFun() {
+  <br>
+  var someVar = &#34;Head&#34;;
+  <br>
+  return someVar;
+  <br>
+  }
+ </blockquote>
+ <p class="wrappable">
+  The function
+  <code>
+   myFun
+  </code>
+  will return
+  <code>
+   &#34;Head&#34;
+  </code>
+  because the
+  <code>
+   local
+  </code>
+  version of the variable is present.
+ </p>
+ <h4>
+  Instructions
+ </h4>
+ <p class="wrappable">
+  Add a local variable to
+  <code>
+   myOutfit
+  </code>
+  to override the value of
+  <code>
+   outerWear
+  </code>
+  with
+  <code>
+   &#34;sweater&#34;
+  </code>
+  .
+ </p>
+</div>

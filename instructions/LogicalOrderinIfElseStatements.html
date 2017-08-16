@@ -1,0 +1,77 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  Order is important in
+  <code>
+   if
+  </code>
+  ,
+  <code>
+   else if
+  </code>
+  statements.
+ </p>
+ <p class="wrappable">
+  The loop is executed from top to bottom so you will want to be careful of what statement comes first.
+ </p>
+ <p class="wrappable">
+  Take these two functions as an example.
+ </p>
+ <p class="wrappable">
+  Here&#39;s the first:
+ </p>
+ <blockquote>
+  function foo(x) {
+  <br>
+  if (x &lt; 1) {
+  <br>
+  return &#34;Less than one&#34;;
+  <br>
+  } else if (x &lt; 2) {
+  <br>
+  return &#34;Less than two&#34;;
+  <br>
+  } else {
+  <br>
+  return &#34;Greater than or equal to two&#34;;
+  <br>
+  }
+  <br>
+  }
+ </blockquote>
+ <p class="wrappable">
+  And the second just switches the order of the statements:
+ </p>
+ <blockquote>
+  function bar(x) {
+  <br>
+  if (x &lt; 2) {
+  <br>
+  return &#34;Less than two&#34;;
+  <br>
+  } else if (x &lt; 1) {
+  <br>
+  return &#34;Less than one&#34;;
+  <br>
+  } else {
+  <br>
+  return &#34;Greater than or equal to two&#34;;
+  <br>
+  }
+  <br>
+  }
+ </blockquote>
+ <p class="wrappable">
+  While these two functions look nearly identical if we pass a number to both we get different outputs.
+ </p>
+ <blockquote>
+  foo(0) // &#34;Less than one&#34;
+  <br>
+  bar(0) // &#34;Less than two&#34;
+ </blockquote>
+ <h4>
+  Instructions
+ </h4>
+ <p class="wrappable">
+  Change the order of logic in the function so that it will return the correct statements in all cases.
+ </p>
+</div>

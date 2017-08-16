@@ -1,0 +1,51 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  We can use special selectors in
+  <dfn>
+   Regular Expressions
+  </dfn>
+  to select a particular type of value.
+ </p>
+ <p class="wrappable">
+  One such selector is the digit selector
+  <code>
+   \d
+  </code>
+  which is used to retrieve one digit (e.g. numbers 0 to 9) in a string.
+ </p>
+ <p class="wrappable">
+  In JavaScript, it is used like this:
+  <code>
+   /\d/g
+  </code>
+  .
+ </p>
+ <p class="wrappable">
+  Appending a plus sign (
+  <code>
+   +
+  </code>
+  ) after the selector, e.g.
+  <code>
+   /\d+/g
+  </code>
+  , allows this regular expression to match one or more digits.
+ </p>
+ <p class="wrappable">
+  The trailing
+  <code>
+   g
+  </code>
+  is short for &#39;global&#39;, which allows this regular expression to find all matches rather than stop at the first match.
+ </p>
+ <h4>
+  Instructions
+ </h4>
+ <p class="wrappable">
+  Use the
+  <code>
+   \d
+  </code>
+  selector to select the number of numbers in the string, allowing for the possibility of one or more digit.
+ </p>
+</div>

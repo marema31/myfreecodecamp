@@ -1,0 +1,151 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  You are given a JSON object representing a part of your musical album collection. Each album has several properties and a unique id number as its key. Not all albums have complete information.
+ </p>
+ <p class="wrappable">
+  Write a function which takes an album&#39;s
+  <code>
+   id
+  </code>
+  (like
+  <code>
+   2548
+  </code>
+  ), a property
+  <code>
+   prop
+  </code>
+  (like
+  <code>
+   &#34;artist&#34;
+  </code>
+  or
+  <code>
+   &#34;tracks&#34;
+  </code>
+  ), and a
+  <code>
+   value
+  </code>
+  (like
+  <code>
+   &#34;Addicted to Love&#34;
+  </code>
+  ) to modify the data in this collection.
+ </p>
+ <p class="wrappable">
+  If
+  <code>
+   prop
+  </code>
+  isn&#39;t
+  <code>
+   &#34;tracks&#34;
+  </code>
+  and
+  <code>
+   value
+  </code>
+  isn&#39;t empty (
+  <code>
+   &#34;&#34;
+  </code>
+  ), update or set the
+  <code>
+   value
+  </code>
+  for that record album&#39;s property.
+ </p>
+ <p class="wrappable">
+  Your function must always return the entire collection object.
+ </p>
+ <p class="wrappable">
+  There are several rules for handling incomplete data:
+ </p>
+ <p class="wrappable">
+  If
+  <code>
+   prop
+  </code>
+  is
+  <code>
+   &#34;tracks&#34;
+  </code>
+  but the album doesn&#39;t have a
+  <code>
+   &#34;tracks&#34;
+  </code>
+  property, create an empty array before adding the new value to the album&#39;s corresponding property.
+ </p>
+ <p class="wrappable">
+  If
+  <code>
+   prop
+  </code>
+  is
+  <code>
+   &#34;tracks&#34;
+  </code>
+  and
+  <code>
+   value
+  </code>
+  isn&#39;t empty (
+  <code>
+   &#34;&#34;
+  </code>
+  ), push the
+  <code>
+   value
+  </code>
+  onto the end of the album&#39;s existing
+  <code>
+   tracks
+  </code>
+  array.
+ </p>
+ <p class="wrappable">
+  If
+  <code>
+   value
+  </code>
+  is empty (
+  <code>
+   &#34;&#34;
+  </code>
+  ), delete the given
+  <code>
+   prop
+  </code>
+  property from the album.
+ </p>
+ <p class="wrappable">
+  <strong>
+   Hints
+  </strong>
+  <br>
+  Use
+  <code>
+   bracket notation
+  </code>
+  when
+  <a href="accessing-objects-properties-with-variables" target="_blank">
+   accessing object properties with variables
+  </a>
+  .
+ </p>
+ <p class="wrappable">
+  Push is an array method you can read about on
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push">
+   Mozilla Developer Network
+  </a>
+  .
+ </p>
+ <p class="wrappable">
+  You may refer back to
+  <a href="manipulating-complex-objects">
+   Manipulating Complex Objects
+  </a>
+  Introducing JavaScript Object Notation (JSON) for a refresher.
+ </p>
+</div>

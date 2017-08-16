@@ -1,0 +1,113 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  There are many
+  <dfn>
+   Comparison Operators
+  </dfn>
+  in JavaScript. All of these operators return a boolean
+  <code>
+   true
+  </code>
+  or
+  <code>
+   false
+  </code>
+  value.
+ </p>
+ <p class="wrappable">
+  The most basic operator is the equality operator
+  <code>
+   ==
+  </code>
+  . The equality operator compares two values and returns
+  <code>
+   true
+  </code>
+  if they&#39;re equivalent or
+  <code>
+   false
+  </code>
+  if they are not. Note that equality is different from assignment (
+  <code>
+   =
+  </code>
+  ), which assigns the value at the right of the operator to a variable in the left.
+ </p>
+ <blockquote>
+  function equalityTest(myVal) {
+  <br>
+  if (myVal == 10) {
+  <br>
+  return &#34;Equal&#34;;
+  <br>
+  }
+  <br>
+  return &#34;Not Equal&#34;;
+  <br>
+  }
+ </blockquote>
+ <p class="wrappable">
+  If
+  <code>
+   myVal
+  </code>
+  is equal to
+  <code>
+   10
+  </code>
+  , the equality operator returns
+  <code>
+   true
+  </code>
+  , so the code in the curly braces will execute, and the function will return
+  <code>
+   &#34;Equal&#34;
+  </code>
+  . Otherwise, the function will return
+  <code>
+   &#34;Not Equal&#34;
+  </code>
+  .
+ </p>
+ <p class="wrappable">
+  In order for JavaScript to compare two different
+  <code>
+   data types
+  </code>
+  (for example,
+  <code>
+   numbers
+  </code>
+  and
+  <code>
+   strings
+  </code>
+  ), it must convert one type to another. Once it does, however, it can compare terms as follows:
+ </p>
+ <blockquote>
+  1   ==  1    // true
+  <br>
+  1   ==  2    // false
+  <br>
+  1   == &#39;1&#39;   // true
+  <br>
+  &#34;3&#34;  ==  3    // true
+ </blockquote>
+ <h4>
+  Instructions
+ </h4>
+ <p class="wrappable">
+  Add the
+  <code>
+   equality operator
+  </code>
+  to the indicated line so that the function will return &#34;Equal&#34; when
+  <code>
+   val
+  </code>
+  is equivalent to
+  <code>
+   12
+  </code>
+ </p>
+</div>

@@ -1,0 +1,50 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  Yay! We just proved that in-line styles will override all the CSS declarations in your
+  <code>
+   style
+  </code>
+  element.
+ </p>
+ <p class="wrappable">
+  But wait. There&#39;s one last way to override CSS. This is the most powerful method of all. But before we do it, let&#39;s talk about why you would ever want to override CSS.
+ </p>
+ <p class="wrappable">
+  In many situations, you will use CSS libraries. These may accidentally override your own CSS. So when you absolutely need to be sure that an element has specific CSS, you can use
+  <code>
+   !important
+  </code>
+ </p>
+ <p class="wrappable">
+  Let&#39;s go all the way back to our
+  <code>
+   pink-text
+  </code>
+  class declaration. Remember that our
+  <code>
+   pink-text
+  </code>
+  class was overridden by subsequent class declarations, id declarations, and in-line styles.
+ </p>
+ <p class="wrappable">
+  Let&#39;s add the keyword
+  <code>
+   !important
+  </code>
+  to your pink-text element&#39;s color declaration to make 100% sure that your
+  <code>
+   h1
+  </code>
+  element will be pink.
+ </p>
+ <p class="wrappable">
+  An example of how to do this is:
+ </p>
+ <p class="wrappable">
+  <code>
+   color: red !important;
+  </code>
+ </p>
+ <div class="negative-bottom-margin-30">
+ </div>
+</div>

@@ -1,0 +1,64 @@
+<div class="challenge-instructions">
+ <p class="wrappable">
+  Objects can be thought of as a key/value storage, like a dictionary. If you have tabular data, you can use an object to &#34;lookup&#34; values rather than a
+  <code>
+   switch
+  </code>
+  statement or an
+  <code>
+   if/else
+  </code>
+  chain. This is most useful when you know that your input data is limited to a certain range.
+ </p>
+ <p class="wrappable">
+  Here is an example of a simple reverse alphabet lookup:
+ </p>
+ <blockquote>
+  var alpha = {
+  <br>
+  1:&#34;Z&#34;,
+  <br>
+  2:&#34;Y&#34;,
+  <br>
+  3:&#34;X&#34;,
+  <br>
+  4:&#34;W&#34;,
+  <br>
+  ...
+  <br>
+  24:&#34;C&#34;,
+  <br>
+  25:&#34;B&#34;,
+  <br>
+  26:&#34;A&#34;
+  <br>
+  };
+  <br>
+  alpha[2]; // &#34;Y&#34;
+  <br>
+  alpha[24]; // &#34;C&#34;
+  <br>
+  <br>
+  var value = 2;
+  <br>
+  alpha[value]; // &#34;Y&#34;
+ </blockquote>
+ <h4>
+  Instructions
+ </h4>
+ <p class="wrappable">
+  Convert the switch statement into a lookup table called
+  <code>
+   lookup
+  </code>
+  . Use it to lookup
+  <code>
+   val
+  </code>
+  and assign the associated string to the
+  <code>
+   result
+  </code>
+  variable.
+ </p>
+</div>
