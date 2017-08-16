@@ -1,0 +1,71 @@
+#calculatrice
+{
+  background-color: #DFD8D0;
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 2px;
+  border-color: #908B85;
+  border-style: solid;
+  box-shadow: 3px 3px 0px #333133;
+  font-family: Montserrat, Monospace;
+  padding-bottom: 20px;
+  width: 400px;
+  margin: auto;
+}
+
+h1
+{
+  margin-top: 12px;
+  text-align:center;
+}
+
+#electronique
+{
+  margin: 20px;
+}
+
+#afficheur
+{
+  background-color: #C3C2AB;
+  text-align: right;
+  padding: 5px;
+  margin: 13px;
+  border-radius: 10px;
+}
+
+#operande
+{
+  font-size: 3em;
+}
+
+button
+{
+  background-image: linear-gradient(to bottom, #343436, #565658);
+  border-radius: 7px;
+  box-shadow: 0px 3px 0px #333133;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  margin: 12px;
+  width: 60px;
+  height: 40px
+}
+
+.rouge
+{
+  background-image: linear-gradient(to bottom, #A72D45, #b82b2b);
+}
+
+#egal
+{
+  height: 104px;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 18px;
+}
+
+#zero
+{
+  width: 148px
+}
