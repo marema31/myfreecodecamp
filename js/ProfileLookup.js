@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 //Setup
 var contacts = [
     {

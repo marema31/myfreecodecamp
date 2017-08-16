@@ -1,4 +1,5 @@
-#!/usr/bin/env jsfunction Fibs(suite,limit)
+#!/usr/bin/env js
+function Fibs(suite,limit)
 {
   a=suite[suite.length-2];
   b=suite[suite.length-1];

@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function testGreaterThan(val) {
   if (val>100) {  // Change this line
     return "Over 100";

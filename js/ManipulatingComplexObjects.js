@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 var myMusic = [
   {
     "artist": "Billy Joel",

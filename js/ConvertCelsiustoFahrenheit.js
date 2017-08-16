@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function convertToF(celsius) {
   var fahrenheit;
   // Only change code below this line

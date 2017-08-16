@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
   var result = "";
   // Your code below this line

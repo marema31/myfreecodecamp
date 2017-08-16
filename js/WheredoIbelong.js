@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function getIndexToIns(arr, num) {
   // Find my place in this sorted array.
   arr.sort(function(a,b){

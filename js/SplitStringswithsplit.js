@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 var string = "Split me into an array";
 var array = [];
 

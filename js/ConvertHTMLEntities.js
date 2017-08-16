@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function convertHTML(str) {
   // &colon;&rpar;
   str=str.replace(/&/g,"&amp;");

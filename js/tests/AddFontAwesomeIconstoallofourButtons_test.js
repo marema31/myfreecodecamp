@@ -1,0 +1,3 @@
+assert($(".btn-danger > i").is(".fa.fa-trash"), 'message: You should add a <code>&#60;i class="fa fa-trash"&#62;&#60;/i&#62;</code> within your delete button element.');
+assert($(".btn-info > i").is(".fa.fa-info-circle"), 'message: You should add a <code>&#60;i class="fa fa-info-circle"&#62;&#60;/i&#62;</code> within your info button element.');
+assert(code.match(/<\/i>/g) && code.match(/<\/i>/g).length > 2 && $(".btn-primary > i").is(".fa.fa-thumbs-up"), 'message: Make sure each of your <code>i</code> elements has a closing tag and <code>&#60;i class="fa fa-thumbs-up"&#62;&#60;/i&#62;</code> is in your like button element.');

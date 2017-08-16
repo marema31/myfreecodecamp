@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 function minusSeven(num) {
   return num - 7;

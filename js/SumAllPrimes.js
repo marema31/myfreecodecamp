@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function sumPrimes(num) {
   var primes=[2];
   for(i=3;i<=num;i++){

@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Setup
 function testStrictNotEqual(val) {
   // Only Change Code Below this Line

@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function findElement(arr, func) {
   var num = 0;
   for(i=0;i<arr.length;i++){

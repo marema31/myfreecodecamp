@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function testElseIf(val) {
   if (val > 10) {
     return "Greater than 10";

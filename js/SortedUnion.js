@@ -1,6 +1,7 @@
 #!/usr/bin/env js
+
 function uniteUnique(arr) {
-  var result=['&#39;];
+  var result=[''];
   arr=Array.prototype.slice.call(arguments);
   for(i=0;i<arr.length;i++){
       for(j=0;j<arr[i].length;j++){

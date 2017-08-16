@@ -1,0 +1,11 @@
+assert(golfScore(4, 1) === "Hole-in-one!", 'message: <code>golfScore(4, 1)</code> should return "Hole-in-one!"');
+assert(golfScore(4, 2) === "Eagle", 'message: <code>golfScore(4, 2)</code> should return "Eagle"');
+assert(golfScore(5, 2) === "Eagle", 'message: <code>golfScore(5, 2)</code> should return "Eagle"');
+assert(golfScore(4, 3) === "Birdie", 'message: <code>golfScore(4, 3)</code> should return "Birdie"');
+assert(golfScore(4, 4) === "Par", 'message: <code>golfScore(4, 4)</code> should return "Par"');
+assert(golfScore(1, 1) === "Hole-in-one!", 'message: <code>golfScore(1, 1)</code> should return "Hole-in-one!"');
+assert(golfScore(5, 5) === "Par", 'message: <code>golfScore(5, 5)</code> should return "Par"');
+assert(golfScore(4, 5) === "Bogey", 'message: <code>golfScore(4, 5)</code> should return "Bogey"');
+assert(golfScore(4, 6) === "Double Bogey", 'message: <code>golfScore(4, 6)</code> should return "Double Bogey"');
+assert(golfScore(4, 7) === "Go Home!", 'message: <code>golfScore(4, 7)</code> should return "Go Home!"');
+assert(golfScore(5, 9) === "Go Home!", 'message: <code>golfScore(5, 9)</code> should return "Go Home!"');

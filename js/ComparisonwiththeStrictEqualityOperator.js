@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Setup
 function testStrict(val) {
   if (val === 7) { // Change this line

@@ -1,6 +1,7 @@
 #!/usr/bin/env js
+
 function myLocalScope() {
-  'use strict&#39;;
+  'use strict';
   var myVar="toto";
   
   console.log(myVar);

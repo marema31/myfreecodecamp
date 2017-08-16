@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 var ourVar = 19;
 

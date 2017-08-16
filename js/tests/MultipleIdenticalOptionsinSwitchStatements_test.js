@@ -1,0 +1,11 @@
+assert(sequentialSizes(1) === "Low", 'message: <code>sequentialSizes(1)</code> should return "Low"');
+assert(sequentialSizes(2) === "Low", 'message: <code>sequentialSizes(2)</code> should return "Low"');
+assert(sequentialSizes(3) === "Low", 'message: <code>sequentialSizes(3)</code> should return "Low"');
+assert(sequentialSizes(4) === "Mid", 'message: <code>sequentialSizes(4)</code> should return "Mid"');
+assert(sequentialSizes(5) === "Mid", 'message: <code>sequentialSizes(5)</code> should return "Mid"');
+assert(sequentialSizes(6) === "Mid", 'message: <code>sequentialSizes(6)</code> should return "Mid"');
+assert(sequentialSizes(7) === "High", 'message: <code>sequentialSizes(7)</code> should return "High"');
+assert(sequentialSizes(8) === "High", 'message: <code>sequentialSizes(8)</code> should return "High"');
+assert(sequentialSizes(9) === "High", 'message: <code>sequentialSizes(9)</code> should return "High"');
+assert(!/else/g.test(code) || !/if/g.test(code), 'message: You should not use any <code>if</code> or <code>else</code> statements');
+assert(code.match(/case/g).length === 9, 'message: You should have nine <code>case</code> statements');

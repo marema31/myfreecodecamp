@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function telephoneCheck(str) {
   str=str.replace(/ /g,"");
   if(str.match(/[^\d-()]/)){

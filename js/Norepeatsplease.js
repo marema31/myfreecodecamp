@@ -1,4 +1,5 @@
-#!/usr/bin/env jsfunction flat(data) {
+#!/usr/bin/env js
+function flat(data) {
   return data.reduce((r, e) => Array.isArray(e) ? r = r.concat(flat(e)) : r.push(e) && r, [])
 }
 
@@ -40,5 +41,5 @@ function permAlone(str) {
   return numPerm;
 }
 
-permAlone('aab&#39;);
+permAlone('aab');
 

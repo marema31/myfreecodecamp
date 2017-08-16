@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function welcomeToBooleans() {
 
 // Only change code below this line.

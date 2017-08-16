@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 var a = 48;
 var b = 108;
 var c = 33;

@@ -1,0 +1,1 @@
+assert(code.match(/\$\s*?\(\s*?(?:'|")\.message(?:'|")\s*?\)\s*?(\.html|\.text)\s*?\(\s*?(?:'|")Here\sis\sthe\smessage(?:'|")\s*?\);/gi), 'message: Clicking the "Get Message" button should give the element with the class <code>message</code> the text "Here is the message".');

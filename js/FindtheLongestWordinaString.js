@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function findLongestWord(str) {
   arr=str.split(" ");
   str=arr.reduce(function(longuest,word){

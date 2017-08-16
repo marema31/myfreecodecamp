@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function golfScore(par, strokes) {
   // Only change code below this line
   if(strokes==1) {

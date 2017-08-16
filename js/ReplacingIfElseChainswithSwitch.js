@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function chainToSwitch(val) {
   var answer = "";
   // Only change code below this line

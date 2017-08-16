@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 var Car = function() {
   this.wheels = 4;
   this.engines = 1;

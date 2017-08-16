@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function randomFraction() {
 
   // Only change code below this line.

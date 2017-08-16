@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function sumAll(arr) {
   var min=arr[0];
   var max=arr[1];

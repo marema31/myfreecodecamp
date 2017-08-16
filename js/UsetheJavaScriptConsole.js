@@ -1,5 +1,6 @@
 #!/usr/bin/env js
 
 
-console.log('Hello world!&#39;);
+
+console.log('Hello world!');
 

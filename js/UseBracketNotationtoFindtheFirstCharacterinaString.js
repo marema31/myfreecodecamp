@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 var firstLetterOfFirstName = "";
 var firstName = "Ada";

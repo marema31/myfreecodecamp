@@ -1,4 +1,5 @@
-#!/usr/bin/env jsfunction diff(arr1,arr2){
+#!/usr/bin/env js
+function diff(arr1,arr2){
   return arr1.filter(function(val){
       for(var i=0;i<arr2.length;i++){
         if(val==arr2[i]){

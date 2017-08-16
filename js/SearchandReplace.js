@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function myReplace(str, before, after) {
   var arr=after.split("");                   
   if(before[0].match(/[A-Z]/)){
@@ -6,7 +7,7 @@ function myReplace(str, before, after) {
   } else {
     arr[0]=arr[0].toLowerCase();
   }
-  after=arr.join('&#39;);
+  after=arr.join('');
   return str.replace(new RegExp(before),after);
 }
 

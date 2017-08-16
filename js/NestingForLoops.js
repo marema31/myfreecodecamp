@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function multiplyAll(arr) {
   var product = 1;
   // Only change code below this line

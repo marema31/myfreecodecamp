@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Setup
 var a;
 var b = 2;

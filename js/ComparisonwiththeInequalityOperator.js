@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Setup
 function testNotEqual(val) {
   if (val !=99) { // Change this line

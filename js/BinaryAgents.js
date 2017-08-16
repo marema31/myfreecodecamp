@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function binaryAgent(str) {
   var bChars=str.split(/\s+/);
   str=bChars.reduce(function(res,val){

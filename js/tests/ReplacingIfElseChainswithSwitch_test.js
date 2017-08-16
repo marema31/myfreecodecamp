@@ -1,0 +1,10 @@
+assert(!/else/g.test(code), 'message: You should not use any <code>else</code> statements anywhere in the editor');
+assert(!/if/g.test(code), 'message: You should not use any <code>if</code> statements anywhere in the editor');
+assert(code.match(/break/g).length >= 4, 'message: You should have at least four <code>break</code> statements');
+assert(chainToSwitch("bob") === "Marley", 'message: <code>chainToSwitch("bob")</code> should be "Marley"');
+assert(chainToSwitch(42) === "The Answer", 'message: <code>chainToSwitch(42)</code> should be "The Answer"');
+assert(chainToSwitch(1) === "There is no #1", 'message: <code>chainToSwitch(1)</code> should be "There is no #1"');
+assert(chainToSwitch(99) === "Missed me by this much!", 'message: <code>chainToSwitch(99)</code> should be "Missed me by this much!"');
+assert(chainToSwitch(7) === "Ate Nine", 'message: <code>chainToSwitch(7)</code> should be "Ate Nine"');
+assert(chainToSwitch("John") === "", 'message: <code>chainToSwitch("John")</code> should be "" (empty string)');
+assert(chainToSwitch(156) === "", 'message: <code>chainToSwitch(156)</code> should be "" (empty string)');

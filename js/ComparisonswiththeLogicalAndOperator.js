@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function testLogicalAnd(val) {
   // Only change code below this line
 

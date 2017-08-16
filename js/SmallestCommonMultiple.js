@@ -1,4 +1,5 @@
-#!/usr/bin/env jsfunction smallestCommons(arr) {
+#!/usr/bin/env js
+function smallestCommons(arr) {
     var range = [];
     for (var i = Math.max(arr[0], arr[1]); i >= Math.min(arr[0], arr[1]); i--) {
     range.push(i);

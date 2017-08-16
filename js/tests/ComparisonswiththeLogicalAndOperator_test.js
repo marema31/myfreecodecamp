@@ -1,0 +1,10 @@
+assert(code.match(/&&/g).length === 1, 'message: You should use the <code>&&</code> operator once');
+assert(code.match(/if/g).length === 1, 'message: You should only have one <code>if</code> statement');
+assert(testLogicalAnd(0) === "No", 'message: <code>testLogicalAnd(0)</code> should return "No"');
+assert(testLogicalAnd(24) === "No", 'message: <code>testLogicalAnd(24)</code> should return "No"');
+assert(testLogicalAnd(25) === "Yes", 'message: <code>testLogicalAnd(25)</code> should return "Yes"');
+assert(testLogicalAnd(30) === "Yes", 'message: <code>testLogicalAnd(30)</code> should return "Yes"');
+assert(testLogicalAnd(50) === "Yes", 'message: <code>testLogicalAnd(50)</code> should return "Yes"');
+assert(testLogicalAnd(51) === "No", 'message: <code>testLogicalAnd(51)</code> should return "No"');
+assert(testLogicalAnd(75) === "No", 'message: <code>testLogicalAnd(75)</code> should return "No"');
+assert(testLogicalAnd(80) === "No", 'message: <code>testLogicalAnd(80)</code> should return "No"');

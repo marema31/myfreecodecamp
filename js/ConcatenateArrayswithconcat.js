@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 var oldArray = [1,2,3];
 var newArray = [];
 

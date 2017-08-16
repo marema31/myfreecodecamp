@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function truncateString(str, num) {
   // Clear out that junk in your trunk
   

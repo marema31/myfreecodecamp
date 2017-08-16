@@ -1,0 +1,3 @@
+assert($("div.col-xs-6").not(":has(>div.well)").length < 1, 'message: Add a <code>div</code> element with the class <code>well</code> inside each of your <code>div</code> elements with the class <code>"col-xs-6"</code>');
+assert($("div.row > div.col-xs-6").length > 1, 'message: Nest both of your <code>div</code> elements with the class <code>"col-xs-6"</code> within your <code>div</code> element with the class <code>"row"</code>.');
+assert(code.match(/<\/div>/g) && code.match(/<div/g) && code.match(/<\/div>/g).length === code.match(/<div/g).length, 'message: Make sure all your <code>div</code> elements have closing tags.');

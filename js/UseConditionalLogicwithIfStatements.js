@@ -1,10 +1,11 @@
 #!/usr/bin/env js
+
 // Example
 function ourTrueOrFalse(isItTrue) {
   if (isItTrue) { 
     return "Yes, it's true";
   }
-  return "No, it&#39;s false";
+  return "No, it's false";
 }
 
 // Setup

@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 var ourArray = ["Stimpson", "J", "cat"];
 ourArray.push(["happy", "joy"]); 

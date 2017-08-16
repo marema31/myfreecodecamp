@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Declarations
 var studlyCapVar;
 var properCamelCase;

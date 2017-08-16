@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function addTogether() {
   if(!Number.isFinite(arguments[0])){
     return undefined;

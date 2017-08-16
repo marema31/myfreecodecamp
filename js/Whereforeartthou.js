@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function whatIsInAName(collection, source) {
   // What's in a name?
   var arr = [];

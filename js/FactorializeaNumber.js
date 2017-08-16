@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function factorialize(num) {
   if(num<=1) {
     return 1;

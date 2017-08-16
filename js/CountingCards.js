@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 var count = 0;
 
 function cc(card) {
@@ -12,10 +13,10 @@ function cc(card) {
        count++;
        break;
       case 10:
-      case 'J&#39;:
-      case &#39;Q&#39;:
-      case &#39;K&#39;:
-      case &#39;A&#39;:
+      case 'J':
+      case 'Q':
+      case 'K':
+      case 'A':
        count--;
        break;
   }  
@@ -29,5 +30,5 @@ function cc(card) {
 
 // Add/remove calls to test your function.
 // Note: Only the last will display
-cc(2); cc(3); cc(7); cc(&#39;K&#39;); cc(&#39;A&#39;);
+cc(2); cc(3); cc(7); cc('K'); cc('A');
 

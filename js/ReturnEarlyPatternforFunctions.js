@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Setup
 function abTest(a, b) {
   // Only change code below this line

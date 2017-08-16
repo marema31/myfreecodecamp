@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function nextInLine(arr, item) {
   // Your code here
   arr.push(item);

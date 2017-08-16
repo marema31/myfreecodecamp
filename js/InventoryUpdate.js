@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function updateInventory(arr1, arr2) {
     // All inventory must be accounted for or you're fired!
     var items=arr1.map(function(val){
@@ -12,15 +13,15 @@ function updateInventory(arr1, arr2) {
         }
         return res;
       },-1);
-      console.log(itemName+&#39; &#39;+ j);
+      console.log(itemName+' '+ j);
        if(j==-1){
-         console.log(&#39;Creating&#39;);
+         console.log('Creating');
          items.push(itemName);
 
          arr1.push([arr2[i][0],itemName]);
-         console.log(&#39;Created&#39;);
+         console.log('Created');
        } else {
-         console.log(&#39;Adding&#39;);
+         console.log('Adding');
          arr1[j][0]+=arr2[i][0];
        }
     }

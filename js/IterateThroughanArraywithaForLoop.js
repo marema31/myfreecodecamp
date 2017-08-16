@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 var ourArr = [ 9, 10, 11, 12];
 var ourTotal = 0;

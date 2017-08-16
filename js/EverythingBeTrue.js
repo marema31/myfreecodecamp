@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function truthCheck(collection, pre) {
   return collection.reduce(function(res,val){
     if(!val.hasOwnProperty(pre) || !val[pre]){

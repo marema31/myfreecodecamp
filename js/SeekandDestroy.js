@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function destroyer(arr) {
   // Remove all the values
   var filters=Array.from(arguments);

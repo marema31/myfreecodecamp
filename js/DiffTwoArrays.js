@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function diffArray(arr1, arr2) {
   var found=[];
   var newArr1=arr1.filter(function(val){

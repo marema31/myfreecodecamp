@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Setup
 var testString = "How many spaces are there in this sentence?";
 

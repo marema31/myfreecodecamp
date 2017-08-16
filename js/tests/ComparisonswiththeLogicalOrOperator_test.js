@@ -1,0 +1,10 @@
+assert(code.match(/\|\|/g).length === 1, 'message: You should use the <code>||</code> operator once');
+assert(code.match(/if/g).length === 1, 'message: You should only have one <code>if</code> statement');
+assert(testLogicalOr(0) === "Outside", 'message: <code>testLogicalOr(0)</code> should return "Outside"');
+assert(testLogicalOr(9) === "Outside", 'message: <code>testLogicalOr(9)</code> should return "Outside"');
+assert(testLogicalOr(10) === "Inside", 'message: <code>testLogicalOr(10)</code> should return "Inside"');
+assert(testLogicalOr(15) === "Inside", 'message: <code>testLogicalOr(15)</code> should return "Inside"');
+assert(testLogicalOr(19) === "Inside", 'message: <code>testLogicalOr(19)</code> should return "Inside"');
+assert(testLogicalOr(20) === "Inside", 'message: <code>testLogicalOr(20)</code> should return "Inside"');
+assert(testLogicalOr(21) === "Outside", 'message: <code>testLogicalOr(21)</code> should return "Outside"');
+assert(testLogicalOr(25) === "Outside", 'message: <code>testLogicalOr(25)</code> should return "Outside"');

@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function steamrollArray(arr) {
   var flatArr=[];
   arr.map(function(val){

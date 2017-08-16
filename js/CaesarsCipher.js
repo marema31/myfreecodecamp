@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function rot13(str) { // LBH QVQ VG!
   var result="";
   for(i=0;i<str.length;i++){

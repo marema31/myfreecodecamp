@@ -1,0 +1,2 @@
+assert((function(d){if(d[0][0] == 'dog' && d[0][1] === 3 && d[1] == undefined){return true;}else{return false;}})(myArray), 'message: <code>myArray</code> should now equal <code>[["dog", 3]]</code>.');
+assert((function(d){if(d[0] == 'John' && d[1] === 23 && typeof removedFromMyArray === 'object'){return true;}else{return false;}})(removedFromMyArray), 'message: <code>removedFromMyArray</code> should contain <code>["John", 23]</code>.');

@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 var firstNameLength = 0;
 var firstName = "Ada";

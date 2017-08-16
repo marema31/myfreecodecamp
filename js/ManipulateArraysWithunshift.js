@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 var ourArray = ["Stimpson", "J", "cat"];
 ourArray.shift(); // ourArray now equals ["J", "cat"]

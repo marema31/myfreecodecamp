@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 var Car = function() {
   // this is a private variable
   var speed = 10;

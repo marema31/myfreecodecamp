@@ -1,4 +1,5 @@
-#!/usr/bin/env jsvar alphabet="abcdefghijklmnopqrstuvwxyz";
+#!/usr/bin/env js
+var alphabet="abcdefghijklmnopqrstuvwxyz";
 
 function fearNotLetter(str) {
   firstLetter=alphabet.indexOf(str[0]);

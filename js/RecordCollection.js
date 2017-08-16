@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Setup
 var collection = {
     "2548": {

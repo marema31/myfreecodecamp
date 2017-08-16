@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 var Person = function(firstAndLast) {
   var firstName;
   var lastName;
@@ -11,12 +12,12 @@ var Person = function(firstAndLast) {
   this.setLastName=function(last){   lastName=last; };
   this.getFirstName=function(){return firstName;};
   this.getLastName=function(){ return lastName;};
-  this.getFullName=function(){ return firstName+' &#39;+lastName;};
+  this.getFullName=function(){ return firstName+' '+lastName;};
 
   this.setFullName(firstAndLast);
   return firstAndLast;
 };
 
-var bob = new Person(&#39;Bob Ross&#39;);
+var bob = new Person('Bob Ross');
 bob.getFirstName();
 

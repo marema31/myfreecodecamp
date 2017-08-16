@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 function ourFunctionWithArgs(a, b) {
   console.log(a - b);

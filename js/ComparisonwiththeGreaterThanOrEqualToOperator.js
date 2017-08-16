@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function testGreaterOrEqual(val) {
   if (val>=20) {  // Change this line
     return "20 or Over";

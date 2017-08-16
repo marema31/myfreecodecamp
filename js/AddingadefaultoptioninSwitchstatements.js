@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function switchOfStuff(val) {
   var answer = "";
   // Only change code below this line

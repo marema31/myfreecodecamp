@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function pairwise(arr, arg) {
   var index = [];
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Setup
 function testEqual(val) {
   if (val == 12) { // Change this line

@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function orderMyLogic(val) {
   if (val < 5) {
     return "Less than 5";

@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 var anAdjective = "awesome!";
 var ourStr = "Free Code Camp is ";

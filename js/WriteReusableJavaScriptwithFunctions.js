@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 function ourReusableFunction() {
   console.log("Heyya, World");

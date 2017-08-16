@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function dropElements(arr, func) {
   while(arr && !func(arr[0])){
     arr.shift();

@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function translatePigLatin(str) {
   if(str[0].match(/[aeiouy]/)){
     return str+"way";
@@ -9,7 +10,7 @@ function translatePigLatin(str) {
     var letter=arr.shift();
     arr.push(letter);
   }
-  return arr.join('&#39;)+"ay";
+  return arr.join('')+"ay";
 }
 
 translatePigLatin("consonant");

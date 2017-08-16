@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 function ourRandomRange(ourMin, ourMax) {
 

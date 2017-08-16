@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Setup
 var testString = "There are 3 cats but 4 dogs.";
 

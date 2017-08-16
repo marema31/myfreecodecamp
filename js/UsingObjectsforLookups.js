@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Setup
 function phoneticLookup(val) {
   var result = "";

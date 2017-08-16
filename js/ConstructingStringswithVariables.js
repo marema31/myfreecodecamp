@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 var ourName = "Free Code Camp";
 var ourStr = "Hello, our name is " + ourName + ", how are you?";

@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function slasher(arr, howMany) {
   // it doesn't always pay to be first
   

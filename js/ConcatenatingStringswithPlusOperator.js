@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 var ourStr = "I come first. " + "I come second.";
 

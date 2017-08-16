@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function repeatStringNumTimes(str, num) {
   // repeat after me
   if(num<1){

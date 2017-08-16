@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 // Example
 var ourArray = [1,2,3];
 ourArray[1] = 3; // ourArray now equals [1,3,3].

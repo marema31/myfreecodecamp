@@ -1,4 +1,5 @@
 #!/usr/bin/env js
+
 function testLessThan(val) {
   if (val<25) {  // Change this line
     return "Under 25";

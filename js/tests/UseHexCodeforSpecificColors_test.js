@@ -1,0 +1,2 @@
+assert($("body").css("background-color") === "rgb(0, 0, 0)", 'message: Give your <code>body</code> element the background-color of black.');
+assert(code.match(/body\s*{(([\s\S]*;\s*?)|\s*?)background.*\s*:\s*?#000(000)?((\s*})|(;[\s\S]*?}))/gi), 'message: Use the <code>hex code</code> for the color black instead of the word <code>black</code>. For example <code>body { color&#58; #000000; }</code>');

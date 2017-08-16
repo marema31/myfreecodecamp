@@ -1,13 +1,14 @@
-#!/usr/bin/env jsvar cashValue = [
-  { name: 'ONE HUNDRED&#39;, val: 100.00},
-  { name: &#39;TWENTY&#39;, val: 20.00},
-  { name: &#39;TEN&#39;, val: 10.00},
-  { name: &#39;FIVE&#39;, val: 5.00},
-  { name: &#39;ONE&#39;, val: 1.00},
-  { name: &#39;QUARTER&#39;, val: 0.25},
-  { name: &#39;DIME&#39;, val: 0.10},
-  { name: &#39;NICKEL&#39;, val: 0.05},
-  { name: &#39;PENNY&#39;, val: 0.01}
+#!/usr/bin/env js
+var cashValue = [
+  { name: 'ONE HUNDRED', val: 100.00},
+  { name: 'TWENTY', val: 20.00},
+  { name: 'TEN', val: 10.00},
+  { name: 'FIVE', val: 5.00},
+  { name: 'ONE', val: 1.00},
+  { name: 'QUARTER', val: 0.25},
+  { name: 'DIME', val: 0.10},
+  { name: 'NICKEL', val: 0.05},
+  { name: 'PENNY', val: 0.01}
 ];
 
 function checkCashRegister(price, cash, cid) {
