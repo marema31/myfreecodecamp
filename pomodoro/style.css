@@ -1,0 +1,99 @@
+body
+{
+    background-color: #DFD8D0;
+    font-family: "Gloria Hallelujah", Monospace;
+    font-size: 200%;
+}
+
+h1
+{
+  margin-top: 12px;
+  text-align:center;
+  font-family: "Sedgwick Ave", Monospace;
+  font-size: 300%;
+}
+
+#content 
+{
+  padding-bottom: 20px;
+  width: 600px;
+  margin: auto;
+}
+
+#counter
+{
+  padding-bottom: 20px;
+  width: 300px;
+  margin: auto;
+}
+
+.settings
+{
+  width:230px;
+}
+
+#work-length
+{
+  margin-right:150px;
+}
+
+.settings-title
+{
+  font-weight: bold;
+  color: #343436;
+}
+
+.settings-number
+{
+  font-weight: bolder;
+  font-size: 3em;
+  display:inline;
+  color: #343436;
+  text-align:right;
+}
+
+.settings-button
+{
+  font-weight: bolder;
+  display:inline-block;
+  width:60px;
+  float:right;
+}
+
+button
+{
+  display:block;
+  height:50px;
+  width:40px;
+}
+
+#counter
+{
+  margin-top: 80px;
+  margin-bottom:150px;
+  font-weight: 800;
+  font-size: 3em;
+  display:inline;
+}
+
+.work
+{
+  color: #96B383;
+}
+
+.break
+{
+  color: #839683;
+}
+
+.counting
+{
+  color: #000;
+}
+
+.stopped
+{
+  color: #888;
+}
+
+
