@@ -1,0 +1,181 @@
+#plateau
+{
+  background-color: #F0C98D;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 2px;
+  border-color: #908B85;
+  border-style: solid;
+  box-shadow: 3px 3px 0px #333133;
+  padding-bottom: 20px;
+  width: 940px;
+  margin: auto;
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+#info {
+  display: none;
+  width: 800px;
+  top: 640px;
+  position: absolute;
+  margin-left: 1200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 100px;
+  font-family: Satisfy, Comic;
+
+}
+
+.perdu
+{
+  background-color: rgba(200,100,0, 0.5);
+}
+
+.gagne
+{
+  background-color: rgba(100,200,0, 0.5);
+}
+
+.nul
+{
+    background-color: rgba(100,100,200, 0.5);
+}
+
+h1
+{
+  margin-top: 12px;
+  text-align:center;
+  font-size: 90px;
+  font-family: Satisfy, Comic;
+}
+
+h2
+{
+  margin-top: 12px;
+  text-align:center;
+  font-size: 40px;
+  font-family: Satisfy, Comic;
+}
+
+label
+{
+  padding-left: 100px;
+}
+table
+{
+  font-family: Roboto, Monospace;
+  border-collapse: collapse;
+}
+
+tr
+{
+  height: 300px;
+ 
+}
+
+td
+{
+  border: solid 15px;
+  text-align: center;
+  width: 300px;
+  font-size: 180px;
+}
+
+tr td:first-child 
+{
+  border-left: 0;
+}
+tr td:last-child
+{
+  border-right: 0;
+}
+tr:first-child td
+{
+  border-top: 0;
+}
+tr:last-child td
+{
+  border-bottom: 0;
+}
+
+.line {
+  width: 800px;
+  height: 1px;
+  border-bottom: 20px solid red;
+}
+
+#line0 {
+  -webkit-transform:
+      translateX(50px); 
+   position: absolute;
+   top: 450px; 
+  display: none;
+}
+
+#line1 {
+  -webkit-transform:
+      translateX(50px); 
+   position: absolute;
+   top: 750px; 
+  display: none;
+}
+
+#line2 {
+  -webkit-transform:
+      translateX(50px); 
+   position: absolute;
+   top: 1050px; 
+  display: none;
+}
+
+#line3 {
+  -webkit-transform:
+      translateX(-250px)
+      rotate(90deg); 
+   position: absolute;
+   top: 750px; 
+  display: none;
+}
+
+#line4 {
+  -webkit-transform:
+      translateX(70px)
+      rotate(90deg); 
+   position: absolute;
+   top: 750px; 
+  display: none;
+}
+
+#line5 {
+  -webkit-transform:
+      translateX(385px)
+      rotate(90deg); 
+   position: absolute;
+   top: 750px; 
+  display: none;
+}
+
+#line6 {
+  width: 1050px;
+  -webkit-transform:
+      translateX(-50px)
+      rotate(45deg); 
+   position: absolute;
+   top: 760px; 
+  display: none;
+}
+
+#line7 {
+  width: 1050px;
+  -webkit-transform:
+      translateX(-50px)
+      rotate(135deg); 
+   position: absolute;
+   top: 760px; 
+  display: none;
+}
